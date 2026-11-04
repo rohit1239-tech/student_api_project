@@ -1,0 +1,28 @@
+# Python virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local SQLite database (old development database)
+*.sqlite3
+db.sqlite3
+
+# Temporary database export
+sqlite_data.json
+
+# Django logs and generated files
+*.log
+staticfiles/
+
+# IDE files
+.vscode/
+.idea/
